@@ -173,6 +173,7 @@ div div div div table tr td a img{
 	margin-right: 8px;
 	margin-left: 10px;
 	float: left;
+	clear: both;
 }
 #submit
 {
@@ -187,11 +188,89 @@ div div div form table tr td{
 	border:1px;
 
 }
-
-div div div div img{
-	height: 145px;
-	width:180px;
+.image1{
+	border: solid 2px lightgrey;
+	height: 130px;
+	width: 170px;
+	background-image: 
+      url('../../assets/images/hangman.jpg');
+	float: left;
 	margin-left: 20px;
-	margin-bottom:15px;
-	
+
+}
+
+.image2{
+	border: solid 2px lightgrey;
+	height: 130px;
+	width: 170px;
+	background-image: 
+      url('../../assets/images/rpggame.jpg');
+	margin-right: 50px;
+	margin-bottom: 50px;
+	margin-top: auto;
+	margin-left: 220px;
+}
+
+.image3{
+	border: solid 2px lightgrey;
+	height: 130px;
+	width: 170px;
+	background-image: 
+      url('../../assets/images/trivia.jpg');
+	margin-left: 20px;	
+	float: left;
+}
+
+.image4{
+	border: solid 2px lightgrey;
+	height: 130px;
+	width: 170px;
+	background-image: 
+      url('../../assets/images/infowidget.jpg');
+	margin-right: 50px;
+	margin-bottom: 50px;
+	margin-top: auto;
+	margin-left: 220px;
+}
+.image5{
+	border: solid 2px lightgrey;	
+	height: 130px;
+	width: 170px;
+	background-image: 
+      url('../../assets/images/rock.jpg');
+	margin-left: 20px;
+}
+
+
+.label1{
+	background-color: teal;
+	text-align: center;
+	margin-top:90px;
+}
+
+.label2{
+	background-color: teal;
+	text-align: center;
+	margin-top: 90px;
+}
+
+.label3{
+	background-color: teal;
+	text-align: center;
+	margin-top:90px;
+}
+.label4{
+	background-color: teal;
+	text-align: center;
+	margin-top:90px;
+}
+.label5{
+	background-color: teal;
+	text-align: center;
+	margin-top:90px;
+}
+
+#name, #email{
+	width:450px;
+	height:30px;
 }
