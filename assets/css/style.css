@@ -4,6 +4,7 @@
 
 body{
 		width: 960px;
+		margin: 0 auto;
 		line-height: 150%;
 		font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
 	}
